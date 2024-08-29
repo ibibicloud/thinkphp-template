@@ -1,0 +1,15 @@
+{
+    "name": "ibibicloud/thinkphp-template",
+    "keywords": ["thinkphp", "template", "thinkphp-template"],
+    "description": "thinkphp-template",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.0.0",
+        "ibibicloud/psr-16-simple-cache": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        }
+    }
+}
